@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
   <head>
     <title>David Gibbons</title>
@@ -15,6 +11,7 @@
     
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css"/></noscript>
+    <link rel="shortcut icon" href="http://www.david-gibbons.com/favicon.ico">
   </head>
   <body class="landing is-preload">
     <!-- Page Wrapper -->
@@ -28,9 +25,12 @@
               <a href="#menu" class="menuToggle"><span>Menu</span></a>
               <div id="menu">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="generic.html">Portfolio</a></li>
-                  <li><a href="elements.html">Contact</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#three">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="about.html">About me</a></li>
+                  <li><a href="./DavidGibbonsResume.pdf">Resume</a></li>
+
                 </ul>
               </div>
             </li>
@@ -48,89 +48,12 @@
             Javascript, HTML5, and CSS3.
           </p>
           <ul class="actions special">
-            <li><a href="#" class="button primary">See Portfolio</a></li>
+            <li><a href="./DavidGibbonsResume.pdf" class="button primary">See Resume</a></li>
           </ul>
         </div>
-        <a href="#one" class="more scrolly">Learn More</a>
+        <a href="#three" class="more scrolly">View Portfolio</a>
       </section>
 
-      <!-- One
-      <section id="one" class="wrapper style1 special">
-        <div class="inner">
-          <header class="major">
-            <h2>
-              Arcu aliquet vel lobortis ata nisl<br />
-              eget augue amet aliquet nisl cep donec
-            </h2>
-            <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-              eleifend<br />
-              fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-              ullamcorper.
-            </p>
-          </header>
-          <ul class="icons major">
-            <li>
-              <span class="icon fa-gem major style1"
-                ><span class="label">Lorem</span></span
-              >
-            </li>
-            <li>
-              <span class="icon fa-heart major style2"
-                ><span class="label">Ipsum</span></span
-              >
-            </li>
-            <li>
-              <span class="icon solid fa-code major style3"
-                ><span class="label">Dolor</span></span
-              >
-            </li>
-          </ul>
-        </div>
-      </section> -->
-
-      <!-- Two
-      <section id="two" class="wrapper alt style2">
-        <section class="spotlight">
-          <div class="image"><img src="images/pic01.jpg" alt="" /></div>
-          <div class="content">
-            <h2>
-              Magna primis lobortis<br />
-              sed ullamcorper
-            </h2>
-            <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-              imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-            </p>
-          </div>
-        </section>
-        <section class="spotlight">
-          <div class="image"><img src="images/pic02.jpg" alt="" /></div>
-          <div class="content">
-            <h2>
-              Tortor dolore feugiat<br />
-              elementum magna
-            </h2>
-            <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-              imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-            </p>
-          </div>
-        </section>
-        <section class="spotlight">
-          <div class="image"><img src="images/pic03.jpg" alt="" /></div>
-          <div class="content">
-            <h2>
-              Augue eleifend aliquet<br />
-              sed condimentum
-            </h2>
-            <p>
-              Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-              imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-            </p>
-          </div>
-        </section>
-      </section> -->
 
       <!-- Three -->
       <section id="three" class="wrapper style3 special">
@@ -150,28 +73,28 @@
                 tincidunt nullam amet leo Aenean ligula consequat consequat.
               </p>
             </li> -->
-            <li class="icon solid fa-laptop">
+            <li onclick="location.href='https://gibbonsdav.github.io/Memory/'" class="icon solid fa-laptop">
               <h3>Javascript Star Wars Memory Game</h3>
               <p>
-                A memory game written in vanilla Javascript. Similar to card matching games you may have played as a kid, with a Star Wars theme. 
+                A memory game written in vanilla Javascript. Similar to card matching games you may have played as a kid, with a Star Wars theme. Sound on if you are a Star Wars fan!
               </p>
             </li>
-            <li class="icon solid fa-code">
-              <h3>Hangman</h3>
+            <li onclick="location.href='https://likebutton.netlify.com/'" class="icon solid fa-code">
+              <h3>React Like Button</h3>
               <p>
-                The classic word guessing game written in javascript. The app will generate a random word for you to guess in the alotted amount of tries.
+                A simple like button built in React that updates the count with every click. My first React project!
               </p>
             </li>
-            <li class="icon solid fa-headphones-alt">
+            <li onclick="location.href='https://gibbonscontactlist.netlify.com/'" class="icon solid fa-headphones-alt">
               <h3>React Contact List</h3>
               <p>
                 A single page react application showing a contact list. You can click each contact to open up their contact card details. 
               </p>
             </li>
-            <li class="icon fa-heart">
-              <h3>React Redux Invite App</h3>
+            <li onclick="location.href='https://gibbonsdav.github.io/Create-Etsy-Search-Page/'" class="icon fa-heart">
+              <h3>Etsy Search Page Clone</h3>
               <p>
-                An application that serves up a person pulled from a random user generator api. You can choose to invite the person or not. Then you can browse your list of invitees and those who didn't make the cut.
+                A clone of an Etsy search page using Html, CSS, Javascript, and a little jquery.
               </p>
             </li>
             <!-- <li class="icon fa-flag">
@@ -195,8 +118,8 @@
             </p>
           </header>
           <ul class="actions stacked">
-            <li><a href="#" class="button fit primary">Contact</a></li>
-            <li><a href="#" class="button fit">See my Resume</a></li>
+            <li><a href="generic.html" class="button fit primary">Contact</a></li>
+            <li><a href="./DavidGibbonsResume.pdf" class="button fit">See my Resume</a></li>
           </ul>
         </div>
       </section>
@@ -205,24 +128,24 @@
       <footer id="footer">
         <ul class="icons">
           <li>
-            <a href="#" class="icon brands fa-github"
+            <a href="https://github.com/gibbonsdav" target="_blank" class="icon brands fa-github"
               ><span class="label">Github</span></a
             >
           </li>
           <li>
-            <a href="#" class="icon brands fa-codepen"
-              ><span class="label">Twitter</span></a
+            <a href="https://codepen.io/gibbonsdav" target="_blank" class="icon brands fa-codepen"
+              ><span class="label">Codepen</span></a
             >
           </li>
           <li>
-            <a href="#" class="icon brands fa-linkedin"
+            <a href="https://www.linkedin.com/in/david-gibbons-lv/" target="_blank" class="icon brands fa-linkedin"
               ><span class="label">Linkedin</span></a
             >
           </li>
           
           
           <li>
-            <a href="#" class="icon solid fa-envelope"
+            <a href="mailto:gibbonsdav@gmail.com" class="icon solid fa-envelope"
               ><span class="label">Email</span></a
             >
           </li>
